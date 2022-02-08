@@ -1,47 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-  </head>
-  <body>
-      <h1>Bootstrap resume</h1>
-      <div class="container">
-          <div class="row">
-              <div class="col-sm-2 col-md-6 col-lg-12 bg-primary">
-                  <h1>Grid 1</h1>
-              </div>
-              <div class="col-sm-8 bg-danger">
-                  <h1>Grid 2</h1>
-              </div>
-              <div class="col-sm-2 bg-info">
-                  <button class="btn btn-primary">Primary</button>
-              </div>
-          </div>
-      </div>
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="jumbotron mycustom-jumbotron">
+        <H1 class="text-white">Ray Sorenson</H1>
+        <H3 class="text-white">Innovate Birmingham Student</H3>
+    </div>
+    <div class="alert alert-success mycustom-alert" role="alert">
+        Resume will be updated as bootcamp progresses
+    </div>
+    <div class="alert alert-light myskills-alert" role="alert">
+        My Skills
+    </div>
+    <ul class="list-group myskills-list-group">
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            HTML
+            <span class="badge badge-primary badge-pill">20%</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            CSS
+            <span class="badge badge-primary badge-pill">20%</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            JavaScript
+            <span class="badge badge-primary badge-pill">40%</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            React
+            <span class="badge badge-primary badge-pill">20%</span>
+
+        </li>
+    </ul>
+    <div class="alert alert-light myskills-alert" role="alert">
+        My Experience
+    </div>
+    <div class="container mycustom-container">
+        <div class="row">
+            <div class="col-4 mb-2">
+            
+                <div class="card">
+                    <img class="card-img-top" src="https://www.nicepng.com/png/detail/205-2056186_tic-tac-toe-x-and-o.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Tic Tac Toe</h5>
+                        <p class="card-text">Browser game styled with CSS and functionality via JavaScript</p>
+                        <a href="https://github.com/raysorenson/c16-ticTacToe" class="btn btn-primary">Click</a>
+                    </div>
+                </div>
+            </div>    
+            <div class="col-4 mb-2">  
+                <div class="card">
+                    <img class="card-img-top" src="https://media.istockphoto.com/vectors/kitchen-cupboard-of-sink-with-bowls-vector-flat-isolated-vector-id1020158356?k=20&m=1020158356&s=612x612&w=0&h=be_McVwxXdax-iEUFVkCyV8vnBNkP61uzAFTuJ39Ahs=" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Kitchen Sink Lab</h5>
+                        <p class="card-text">A classroom exercise exploring the fundamentals of JavaScript</p>
+                        <a href="https://github.com/raysorenson/C16-kitchenSink" class="btn btn-primary">Click</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mb-2">
+                <div class="card">
+                    <img class="card-img-top" src="https://emilylongbrake.com/wp-content/uploads/2015/07/99-bottles-of-beer-on-the-wall-03.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">99 lines of code</h5>
+                        <p class="card-text">Classroom excercise using 2 loops to modify lines of text in the format of "99 bottles of beer" </p>
+                        <a href="https://github.com/raysorenson/c16-99Lines/tree/master/Documents/Sourse/JS1/c16-99Lines" class="btn btn-primary">Click</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 mb-2">
+            
+                <div class="card">
+                    <img class="card-img-top" src="https://repository-images.githubusercontent.com/279995113/37c6ee80-caef-11ea-8dd5-58fe488fddb8" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">GitHub Contributions</h5>
+                        <p class="card-text">Link to my GitHub contribution page. How busy have I been? </p>
+                        <a href="https://github.com/raysorenson" class="btn btn-primary">Click</a>
+                    </div>
+                </div>
+            </div>    
+            <div class="col-4 mb-2">  
+                <div class="card">
+                    <img class="card-img-top" src="https://www.pinclipart.com/picdir/middle/35-353932_bootstrap-bootstrap-4-logo-png-clipart.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Bootstrap Resume</h5>
+                        <p class="card-text">Resume styled using Bootstrap</p>
+                        <a href="#" class="btn btn-primary">Click</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+    <div class="jumbotron mycustom-jumbotron">
+        <h3 class="text-white text-center">Ray Sorenson</H3>
+        <h3 class="text-white text-center">stngry78@gmail.com</H3>
+    </div>
+
+</body>
+
 </html>

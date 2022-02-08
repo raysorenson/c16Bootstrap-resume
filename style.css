@@ -1,0 +1,27 @@
+.mycustom-jumbotron{
+    border:20px solid white;
+  width: 900px;
+  margin: 0 auto;
+  background-color: #6495ED;
+  min-height: 120px;
+}
+
+.mycustom-alert{
+    width: 900px;
+    margin: 0 auto;
+    border: 20px solid white;
+}
+.myskills-alert{
+    font-size: 30px;
+    width: 900px;
+    margin: 0 auto;
+}
+.myskills-list-group{
+    width: 900px;
+    margin: 0 auto;
+    border: 20px solid white
+}
+.mycustom-container{
+    width: 880px;
+    margin: 0 auto;
+}
